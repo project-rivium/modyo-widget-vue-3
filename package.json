@@ -20,7 +20,11 @@
     "vite",
     "modyo"
   ],
-  "author": "luisfalconmx <luisfalconmx@gmail.com>",
+  "author": "rivium",
+  "contributors": [
+    "luisfalconmx <luisfalconmx@gmail.com>",
+    "juancmandev <whenix.developer@gmail.com>"
+  ],
   "bugs": {
     "url": "https://github.com/luisfalconmx/modyo-widget-vue-3/issues"
   },
