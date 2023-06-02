@@ -1,7 +1,9 @@
 {
-  "name": "modyo-widget-vue-3",
+  "name": "@rivium/modyo-widget-vue-3",
   "description": "Widget Template for Modyo with a configuration for VueJS 3",
-  "private": false,
+  "engines": {
+    "node": "18.x"
+  },
   "license": "MIT",
   "version": "1.0.0",
   "type": "module",
