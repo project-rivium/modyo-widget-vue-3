@@ -32,10 +32,10 @@
     "push": "npm run build && modyo-cli push"
   },
   "dependencies": {
-    "@modyo/cli": "^3.1.27",
     "vue": "^3.2.47"
   },
   "devDependencies": {
+    "@modyo/cli": "^3.1.27",
     "@vitejs/plugin-vue": "^4.1.0",
     "autoprefixer": "^10.4.14",
     "eslint": "^8.41.0",
