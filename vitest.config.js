@@ -8,7 +8,7 @@ export default mergeConfig(
   defineConfig({
     test: {
       environment: 'jsdom',
-      include: ['src/**/*.{js,cjs,mjs,ts,vue}'],
+      include: ['src/**/*.{js,cjs,mjs,ts}'],
       exclude: [
         ...configDefaults.exclude,
         'e2e/*',
