@@ -1,16 +1,15 @@
 {
-  "name": "@rivium/modyo-widget-vue-3",
+  "name": "@rivium/modyo-widgets-template-vue",
   "description": "Widget Template for Modyo with a configuration for VueJS 3",
-  "engines": {
-    "node": "18.x"
-  },
+  "author": "rivium",
   "license": "MIT",
   "version": "1.0.0",
+  "homepage": "https://github.com/luisfalconmx/modyo-widgets-template-vue#readme",
   "type": "module",
   "main": "src/main.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luisfalconmx/modyo-widget-vue-3.git"
+    "url": "git+https://github.com/luisfalconmx/modyo-widgets-template-vue.git"
   },
   "keywords": [
     "typescript",
@@ -20,28 +19,27 @@
     "vite",
     "modyo"
   ],
-  "author": "rivium",
+  "engines": {
+    "node": "18.x"
+  },
   "contributors": [
     "luisfalconmx <luisfalconmx@gmail.com>",
     "juancmandev <whenix.developer@gmail.com>"
   ],
   "bugs": {
-    "url": "https://github.com/luisfalconmx/modyo-widget-vue-3/issues"
+    "url": "https://github.com/luisfalconmx/modyo-widgets-template-vue/issues"
   },
-  "homepage": "https://github.com/luisfalconmx/modyo-widget-vue-3#readme",
   "scripts": {
     "start": "vite --host",
-    "build": "npm run type-check && npm run build-only",
+    "build": "npm run type-check && vite build",
+    "deploy": "npm run build && modyo-cli push",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
-    "prepush": "npm run format && npm run lint && npm run type-check",
-    "push": "npm run build-only && npm run modyo-push",
     "type-check": "vue-tsc --noEmit -p tsconfig.json --composite false",
-    "build-only": "vite build",
-    "modyo-push": "modyo-cli push",
-    "test": "vitest",
-    "coverage": "vitest run --coverage"
+    "predeploy": "npm run format && npm run lint"
   },
   "dependencies": {
     "vue": "^3.2.47"
