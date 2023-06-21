@@ -3,7 +3,7 @@
 Widget Template for Modyo with a configuration for VueJS 3
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/project-rivium/modyo-widgets-template-vue/main/.github/screenshot.png" alt="project-rivium/modyo-widgets-template-vue" width="100%" />
+  <img src="https://raw.githubusercontent.com/project-rivium/modyo-widgets-template-vue/main/.github/screenshot.jpg" alt="project-rivium/modyo-widgets-template-vue" width="100%" />
 </p>
 
 ## Documentation
