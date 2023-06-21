@@ -3,7 +3,7 @@
   "description": "Widget Template for Modyo with a configuration for VueJS 3",
   "author": "rivium",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/luisfalconmx/modyo-widgets-template-vue#readme",
   "type": "module",
   "main": "src/main.ts",
