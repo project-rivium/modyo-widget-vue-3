@@ -2,4 +2,4 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import './tailwind.css'
 
-createApp(App).mount('#modyo-vue-3-vite')
+createApp(App).mount('#my-awesome-widget')
